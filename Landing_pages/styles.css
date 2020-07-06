@@ -1,5 +1,8 @@
+/*her i am importing the google fonts we can also link it in the html but this is the better way to do it*/
+
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
+/*here i have given the whole page styling details*/
 *{
 	margin: 0;
 	padding: 0;
@@ -8,6 +11,7 @@
 	font-family: 'Comfortaa', cursive;
 }
 
+/*styling details for the body tag*/
 body{
 	background: url('bg2.jpg') no-repeat center;
 	background-size: cover;
@@ -15,6 +19,7 @@ body{
 	height: 100vh;
 }
 
+/*the styling detail for the div tag wrapper class we are intializing the box model for the wrapper class*/
 .wrapper{
 	width: 100%;
 	height: 100%;
@@ -25,11 +30,14 @@ body{
 	letter-spacing: 2px;
 }
 
+/*styling of the h1 tag present in the .wrapper class of div tag*/
 .wrapper h1{
 	margin-bottom: 40px;
 	font-size: 42px;
 	color: #fff;
 }
+
+/*styling of the p tag present in the .wrapper class of div tag*/
 
 .wrapper p{
 	margin-bottom: 40px;
@@ -37,12 +45,14 @@ body{
 	font-size: 20px;
 }
 
+/*this is the another div tag which i sused to hold the input of the email address*/
 .newsletter{
 	max-width: 550px;
 	width: 100%;
 	position: relative;
 }
 
+/*we are styling the input attribute*/
 .newsletter .input{
 	width: 100%;
 	padding: 30px 100px 30px 60px;
@@ -51,6 +61,7 @@ body{
 	font-weight: bold;
 }
 
+/* we are adjuting the envelope to fit in the input field*/
 .newsletter .fas{
 	position: absolute;
 	top: 50%;
@@ -59,6 +70,7 @@ body{
 	font-size: 20px;
 }
 
+/*we are adjusting the .btn class to fit in the input field */
 .newsletter .btn{
 	position: absolute;
 	top: 50%;

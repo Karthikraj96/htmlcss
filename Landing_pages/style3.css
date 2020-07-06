@@ -1,39 +1,54 @@
+/*Whole Page Styling*/
 body,
 html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   background:url(header.jpg) no-repeat center center fixed;
-  -webkit-background-size:cover;
+/*The Following are the Browser Support  Cover Codes We Have To Use the Following Unless Our Code Will Not Work As Intented In All Browsers */
+  -webkit-background-size:cover; 
   -moz-background-size:cover
   -o-background-size:cover
   background-size:cover
 }
+
+/*Styling For The H1 Tag*/
 h1{
 	font-size:3rem;
 	color: white;
 }
+/*Styling For The HR Tag*/
 hr{
 	border-color: #f05f44;
 	border-width:3px;
 	max-width: 65px;
 }
+
+/*Here We Are Included The Height Forh The Div Tag*/
 .buffer{
 	height: 10rem;
 }
+
+/*Here We Are Changed The .btn-primary Padding*/
  .btn-primary {
 	padding: 1rem 2rem;
 }
+
+/*We Have Changed The Default Button Font-Weight , Border-Radius And Transform The Text to UpperCase*/
 .btn{
 	font-weight:700;
 	border-radius: 300px;
 	text-transform: uppercase;
 
 }
+
+/*We Have Chabged The Bootsrap Default Button Color And Border Color*/
 .btn{
 	background-color: #f05f44;
 	border-color: #f05f44;
 }
+
+/*The Hover Effect Styling Has Been Done Here*/
 .btn-primary:hover{
 	background-color: #ee4b08;
 	border-color: #ee4b08;
