@@ -1,0 +1,105 @@
+body {
+    background-image: url("images/bg1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+p{
+    font-family: 'Playfair Display', serif;
+}
+#background {
+    background-color:lightgoldenrodyellow;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+/* Header starts here */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #FFB6C1;
+    font-size: 4rem;
+}
+
+img {
+    width: 55%;
+    height: 70%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+header figcaption {
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+hr {
+    border-top: 1px solid goldenrod;
+    width: 50%;
+}
+/* Header ends here */
+
+/* Main starts here */
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Niconne', cursive;
+    color: #FFB6C1;
+    font-size: 2.5rem;
+    word-spacing: 0.3rem;
+    margin-bottom: 0.1rem;
+}
+
+p {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 1.1rem;
+    line-height: 1.8rem;
+}
+
+section img {
+    width: 65%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+section iframe {
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.first-point figcaption {
+    font-style: italic;
+    font-size: 1.5rem;
+    min-width: 60%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#peace {
+    width: 100%;
+}
+/* Main ends here */
+
+/* Footer starts here */
+    ul {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    li {
+        display: inline;
+      }
+/* Footer ends here */
